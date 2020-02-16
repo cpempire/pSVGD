@@ -1,0 +1,7 @@
+mpirun -n 2 python pSVGD_16.py
+
+mpirun -n 2 python pSVGD_32.py
+
+mpirun -n 2 python pSVGD_64.py
+
+# mpirun -n 2 python pSVGD_128.py

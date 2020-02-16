@@ -1,0 +1,43 @@
+mpirun -n 1 python mcmc_dili.py
+
+# for i in 1 2 3 4 5 6 7 8 9 10
+# do
+#   mpirun -n 1 python SVGD.py
+
+#   cp data/data_nSamples_16_isProjection_False_SVGD.p data/data_nSamples_16_isProjection_False_SVGD_$i.p
+# done
+
+# for i in 1 2 3 4 5 6 7 8 9 10
+# do
+#   mpirun -n 1 python pSVGD.py
+
+#   cp data/data_nSamples_16_isProjection_True_SVGD.p data/data_nSamples_16_isProjection_True_SVGD_$i.p
+# done
+
+# for i in 1 2 3 4 5 6 7 8 9 10
+# do
+#   mpirun -n 4 python SVGD.py
+
+#   cp data/data_nSamples_64_isProjection_False_SVGD.p data/data_nSamples_64_isProjection_False_SVGD_$i.p
+# done
+
+# for i in 1 2 3 4 5 6 7 8 9 10
+# do
+#   mpirun -n 4 python pSVGD.py
+
+#   cp data/data_nSamples_64_isProjection_True_SVGD.p data/data_nSamples_64_isProjection_True_SVGD_$i.p
+# done
+
+for i in 1 2 3 4 5 6 7 8 9 10
+do
+  mpirun -n 16 python SVGD.py
+
+  cp data/data_nSamples_256_isProjection_False_SVGD.p data/data_nSamples_256_isProjection_False_SVGD_$i.p
+done
+
+for i in 1 2 3 4 5 6 7 8 9 10
+do
+  mpirun -n 16 python pSVGD.py
+
+  cp data/data_nSamples_256_isProjection_True_SVGD.p data/data_nSamples_256_isProjection_True_SVGD_$i.p
+done

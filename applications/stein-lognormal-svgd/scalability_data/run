@@ -1,0 +1,7 @@
+mpirun -n 16 python pSVGD_7x7.py
+
+mpirun -n 16 python pSVGD_15x15.py
+
+mpirun -n 16 python pSVGD_31x31.py
+
+mpirun -n 16 python pSVGD_63x63.py

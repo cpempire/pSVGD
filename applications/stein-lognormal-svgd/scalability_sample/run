@@ -1,0 +1,25 @@
+# mpirun -n 2 python pSVGD_32.py
+
+# mpirun -n 4 python pSVGD_32.py
+
+# mpirun -n 8 python pSVGD_32.py
+
+# mpirun -n 16 python pSVGD_32.py
+
+
+python pSVGD_64.py
+
+python pSVGD_128.py
+
+python pSVGD_256.py
+
+python pSVGD_512.py
+
+
+# ibrun -n 2 singularity exec /work/05466/pc25452/frontera/stable_2017.2.0.sif python pSVGD_32.py
+
+# ibrun -n 4 singularity exec /work/05466/pc25452/frontera/stable_2017.2.0.sif python pSVGD_32.py
+
+# ibrun -n 8 singularity exec /work/05466/pc25452/frontera/stable_2017.2.0.sif python pSVGD_32.py
+
+# ibrun -n 16 singularity exec /work/05466/pc25452/frontera/stable_2017.2.0.sif python pSVGD_32.py

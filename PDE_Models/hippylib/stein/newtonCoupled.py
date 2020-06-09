@@ -1,6 +1,3 @@
-# contact: Peng Chen, peng@ices.utexas.edu,
-# written on Novemeber 19, 2018
-# updated for parallel projection version on Jan 12, 2019
 
 from __future__ import absolute_import, division, print_function
 

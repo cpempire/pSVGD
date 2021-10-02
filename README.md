@@ -1,3 +1,4 @@
+![](pSVGD.png)
 Projected Stein variational methods for high-dimensional Bayesian inference 
 
 The nonPDE models are implemented in nonPDE_Models, using HIPS/autograd to compute gradients
